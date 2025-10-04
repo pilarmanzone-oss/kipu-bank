@@ -38,8 +38,8 @@ con límites configurables y protección contra ataques de reentrancy.
 ### Paso 1: Preparar el Entorno
 
 1. Acceda a Remix web en https://remix.ethereum.org
-2. Crea un nuevo archivo llamado `KipuBank.sol`
-3. Copia y pega el código del contrato
+2. Cree un nuevo archivo llamado `KipuBank.sol`
+3. Copie y pega el código del contrato
 
 ### Paso 2: Compilar el Contrato
 
