@@ -152,32 +152,11 @@ Valor en Ether: Valor en Wei
 3. **Límites Inmutables**: Los límites establecidos en el constructor NO se modifican
 4. **Parámetros**: Verificar que los valores sean correctos al desployar
 
-## Ejemplo de Uso
-
-### Escenario: Crear un banco con límite de 10 ETH
-
-   solidity
-// 1. Desplegar con:
-_withdrawalLimit = 1000000000000000000 (1 ETH)
-_bankCap = 10000000000000000000 (10 ETH)
-
-// 2. Usuario A deposita 2 ETH
-deposit() con VALUE = 2 ether
-
-// 3. Verificar balance
-getBalance(addressUsuarioA) → 2000000000000000000 wei
-
-// 4. Usuario A retira 0.5 ETH
-withdraw(500000000000000000)
-
-// 5. Nuevo balance
-getBalance(addressUsuarioA) → 1500000000000000000 wei
-
 ## Tecnologías Utilizadas
 
 - **Solidity**: ^0.8.20
 - **Remix IDE**: Para desarrollo y despliegue
-- **Patrones OpenZeppelin**: para seguridad
+- **Patrones OpenZeppelin**: para seguridad contra reentrancy
 
 ## Autor
 
@@ -196,5 +175,6 @@ Si encuentra problemas durante el deploy o uso del contrato:
 4. Consulte los errores personalizados para diagnóstico
 
 Gracias por la paciencia de leer hasta aquí :-)
+
 **Fecha de última actualización**: Octubre 2025  
 **Versión del Contrato**: 1.0
