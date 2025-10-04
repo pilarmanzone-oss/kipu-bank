@@ -107,7 +107,7 @@ Una vez hecho el deploy, el contrato aparecerá en **"Deployed Contracts"** y se
 3. Haga clic en el botón naranja `withdraw`
 4. Se realizará la transferencia de ETH a su wallet
 
-** Importante:** El retiro no superará el `WITHDRAWAL_LIMIT` definido en el deploy.
+**Importante:** El retiro no superará el `WITHDRAWAL_LIMIT` definido en el deploy.
 
 ### 4. Estadísticas
 
