@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 /**
  * @title KipuBank
- * @author Pilar (Revisado y mejorado)
+ * @author Pilar
  * @notice Contrato de bóveda personal que permite a los usuarios depositar y retirar ETH con límites
  * @dev Implementa límites por transacción, límite global y protección contra reentrancy
  */
