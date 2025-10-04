@@ -137,13 +137,14 @@ Con esta función se puede saber si un depósito supera el límite.
 
 ## Conversiones Wei a Ether (machete útil)
 
-Valor en Ether: Valor en Wei
-0.01 ETH: 10000000000000000
-0.1 ETH: 100000000000000000
-0.5 ETH: 500000000000000000
-1 ETH: 1000000000000000000
-5 ETH: 5000000000000000000
-10 ETH: 10000000000000000000
+| Valor en Ether | Valor en Wei |
+|----------------|--------------|
+| 0.01 ETH | 10000000000000000 |
+| 0.1 ETH | 100000000000000000 |
+| 0.5 ETH | 500000000000000000 |
+| 1 ETH | 1000000000000000000 |
+| 5 ETH | 5000000000000000000 |
+| 10 ETH | 10000000000000000000 |
 
 ## Importante
 
