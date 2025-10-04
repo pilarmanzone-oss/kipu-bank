@@ -25,7 +25,7 @@ con límites configurables y protección contra ataques de reentrancy.
 
 **Para Usuarios:**
 - Depositar ETH mediante `deposit()` o envío directo de ETH 
-- Retirar ETH mediante `withdraw(amount)`
+- Retirar ETH mediante `withdraw()`
 - Consultar balance personal y estadísticas
 
 **Información Disponible:**
@@ -39,7 +39,7 @@ con límites configurables y protección contra ataques de reentrancy.
 
 1. Acceda a Remix web en https://remix.ethereum.org
 2. Cree un nuevo archivo llamado `KipuBank.sol`
-3. Copie y pega el código del contrato
+3. Copie y pegue el código del contrato
 
 ### Paso 2: Compilar el Contrato
 
