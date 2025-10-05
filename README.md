@@ -34,9 +34,9 @@
 3. Desplegar ingresando `_withdrawalLimit` y `_bankCap` (por ejemplo, `1000000000000000000` y `10000000000000000000`).  
 4. Usar `deposit()` (ingresando los wei en VALUE, más arriba) o enviar ETH al contrato para depositar.  
 5. Usar `withdraw(amount)` (ingresando los wei en amount) para retirar ETH, respetando `WITHDRAWAL_LIMIT`.  
-6. Consultar balances con `getBalance(address)`.  
+6. Consultar balances con `getBalance(address)` (ingresando la dirección correspondiente).  
 7. Consultar estadísticas globales con `getVaultStats()`.  
-8. Consultar estadísticas por usuario con `getUserStats(address)`.
+8. Consultar estadísticas por usuario con `getUserStats(address)` (ingresando la dirección correspondiente).
 
 ---
 
